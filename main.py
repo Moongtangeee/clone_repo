@@ -1,5 +1,5 @@
 implemented = []
-module_list = ["A", "B", "conflict", "is_it_okay"]
+module_list = ["A", "B", "conflict", "3_way_merge"]
 for module_name in module_list:
     try:
         module = __import__(module_name)
